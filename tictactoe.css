@@ -1,0 +1,33 @@
+.jumbotron,h3{
+    text-align: center;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    background-image: url("https://janschreiber.github.io/img2/black-chalk.jpg");
+    /*text-align: center;*/
+    font-family: 'Indie Flower', 'Comic Sans', cursive;
+}
+h3{
+    color:white;
+    font-size:25px;
+    margin:25px;
+}
+.oyuncu_sira{
+    color:white;
+}
+
+.kutu{
+    color:white;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border: 5px solid white;
+    font-size: 90px;
+    vertical-align: middle;
+    cursor: pointer;
+    color: aquamarine;
+}
+.kutu:hover{
+    border: 5px solid rgb(179,115,115);
+}
